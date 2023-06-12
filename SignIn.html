@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <script type="text/javascript" src="SignInvalidator.js"> </script>
+        <title>Sign In</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="banner.png" alt="Website Banner" class="banner"/>
+            </div>
+            
+            <div class="navigation">
+                <a href="index.php">Home</a> | <a href="SignIn.html">Sign in</a>
+            </div>
+            
+            <div class="signin">
+                <h1>Sign In</h1>
+                <form id="login" action="LoginValidator.php" method="post">
+                    <label id="usernameError" class="error"></label>
+                    <br>
+                    <label for="username">Email:</label>
+                    <input type="text" name="email"/>
+                    <br>
+                    <label id="passwordError" class="error"></label>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password"/>
+                    <br>
+                    <br>
+                    <input type="submit" value="Sign In">
+                </form>
+                <script type="text/javascript" src="signin-r.js"></script>
+                <p>Don't have an account? <a href="SignUp.html">Sign up</a></p>
+            </div>
+        </div>
+    </body>
+
+
+</html>

@@ -1,0 +1,1 @@
+document.getElementById("posttext").addEventListener("input", dynamicCounter, false);

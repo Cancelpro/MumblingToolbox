@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>Sign Up</title>
+        <script type="text/javascript" src="SignUpValidator.js"> </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="logo">
+                <img src="banner.png" alt="Website Banner" class="banner"/>
+            </div>
+            
+            <div class="navigation">
+                <a href="index.php">Home</a> | <a href="SignIn.html">Sign in</a>
+            </div>
+            
+            <div class="signup">
+                <h1>Sign Up</h1>
+                <form id="signup" action="SignupValidator.php" method="post" enctype="multipart/form-data">
+                    <label id="usernameError" class="error"></label>
+                    <br>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username"/>
+                    <br>
+                    <label id="emailError" class="error"></label>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email"/>
+                    <br>
+                    <label id="bdayError" class="error"></label>
+                    <br>
+                    <label for="birthday">Birth Date:</label>
+                    <input type="Date" id="birthday" name="birthday"/>
+                    <br>
+                    <label id="passwordError" class="error"></label>
+                    <br>
+                    <label for="image">Image: </label>
+                    <input type="file" id="image" name="image">
+                    <br>
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password"/>
+                    <br>
+                    <label id="cPasswordError" class="error"></label>
+                    <br>
+                    <label for="confirmpassword">Confirm Password:</label>
+                    <input type="password" id="confirmpassword" name="confirmpassword"/>
+                    <br>
+                    <br>
+                    <input type="submit" value="Sign Up">
+                    
+                </form>
+                <script type="text/javascript" src="signup-r.js"> </script>
+                <p>Already have an account? <a href="SignIn.html">Sign In</a></p>
+            </div>
+        </div>
+    </body>
+
+
+</html>

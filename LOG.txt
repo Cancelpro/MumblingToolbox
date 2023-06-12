@@ -1,0 +1,31 @@
+Name: Tait Larsen
+Student Number: 200380253
+class Number: CS 215-398
+Hercules URL: http://www2.cs.uregina.ca/~tjl089/Assignment4/index.php
+database: username: tjl089 password: Roy123
+
+Files Submitted:
+banner.png - the banner for the top of our website (provided by canva.com)
+DislikeOff.png = dislike button white background
+DislikeOn.png  - dislike button red background
+LikeOn - like button green background
+LikeOff - like button white background
+signin-r.js - event register for the sign in page
+SignInvalidator.js - validator for signin
+signup-r.js - event register for sign up page
+SignUpValidator.js - signup page validator
+LikeSystem.js - changes the pictures between like and dislike
+LikeSystem-r.js - main page validator
+DynamicCounter.js - counts the words typed into a text field
+DyanmicCounter-r.js event register for dynamic counter.
+index.html - the homepage and where all the user posts will be displayed
+log.txt - what you're reading
+Post.html - where you can create a post to appear on the homepage
+SignIn.html - where you can sign in to your previously created account.
+SignUp.html - allows you to create a new account.
+StoryBoard and Sketches.pdf - a pdf that contains all of the storyboard and sketch images.
+style.css - my design stylesheet
+User.html - basic layout of what a users personal account page will look like.
+SignInValidator.php - queries database for user and if exists redirects to homepage.
+SignOutValidator.php - Inserts user info into database.
+SignOut.php - simply signs the user out;
